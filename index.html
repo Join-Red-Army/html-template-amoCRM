@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <link rel="stylesheet" href="style.css">
+  <title>amoCRM</title>
+  
+
+  <!-- шрифты -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <div class="header__inner">
+
+      <img class="header__logo" src="img/header-logo.svg" alt="logo">
+
+      <div class="header__search">
+        <form class="search-form" action="/" method="post">
+          <img class="search-form__glass" src="./img/search-glass.svg" alt="">
+          <input class="search-form__input" placeholder="Найти..." />
+        </form>
+      </div>
+
+      <div class="header__user">
+        <div class="user-box">
+          <span class="user-box__name">Константин</span>
+          <img class="user-box__avatar" src="./img/user-avatar.png" alt="avatar">
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- header для мобильных -->
+  <div class="header --mobile">
+
+    <div class="header__inner --mobile">
+      <img class="header__logo" src="img/header-logo.svg" alt="logo">
+      <img class="user-icon" src="./img/user-icon.svg" alt="icon">
+    </div>
+
+    <div class="header__search --mobile">
+      <form class="search-form --mobile" action="/" method="post">
+        <img class="search-form__glass --mobile" src="./img/search-glass.svg" alt="">
+        <input class="search-form__input" placeholder="Найти..." />
+      </form>
+    </div>
+  </div>
+
+
+  <!-- partners -->
+  <section class="section">
+    <div class="partners">
+
+      <h1 class="partners__title">НАШИ ПАРТНЕРЫ</h1>
+
+      <div class="partners__cards">
+        <a class="card" href="#">
+          <img class="card__logo" src="img/card-penrose.svg" alt="logo">
+        </a>
+
+        <a class="card" href="#">
+          <img class="card__logo" src="img/card-hexagon.svg" alt="logo">
+        </a>
+
+        <a class="card" href="#">
+          <img class="card__logo" src="img/card-spider.svg" alt="logo">
+        </a>
+
+        <a class="card" href="#">
+          <img class="card__logo" src="img/card-flower.svg" alt="logo">
+        </a>
+
+        <a class="card" href="#">
+          <img class="card__logo" src="img/card-zaibatsu.svg" alt="logo">
+        </a>
+
+        <a class="card" href="#">
+          <img class="card__logo" src="img/card-roadsign.svg" alt="logo">
+        </a>
+
+        <a class="card" href="#">
+          <img class="card__logo" src="img/card-butterflytie.svg" alt="logo">
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('submit', (e) => {
+      e.preventDefault();
+    })
+  </script>
+
+</body>
+</html>
